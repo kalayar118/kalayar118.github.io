@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: cadetblue;
+    min-height: 100vh;
+    color: rgb(234, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registor{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.title{
+    text-align: center;
+    margin: 10px 0;
+}
+.title:hover{
+    text-shadow: 2px 3px 4px coral;
+}
+.form-control{
+    display: block;
+    height:30px;
+    width:100%;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+.form-label{
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.imput{
+    width:380px;
+    margin-bottom: 20px;
+}
+
+
+.registorbtn{
+    width:50%;
+    height: 30px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+.registorbtn:hover{
+    background-color:lightblue ;
+    color: black;
+    
+}
