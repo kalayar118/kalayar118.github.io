@@ -33,6 +33,7 @@
     border: none;
     margin-bottom: 20px;
     color: rgb(10, 10, 10);
+    padding-left: 25px;
 }
 .loginbtn{
     width: 100%;
@@ -42,4 +43,10 @@
     border: none;
     background-color: rgb(95, 95, 151);
     color: rgb(219, 211, 211);
+}
+.name{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    font-size: 12px;
 }
